@@ -1,4 +1,7 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
+  base: "/react-apps-shop/",
   plugins: [react()],
-  base: "/react-apps-shop/", // Это исправляет пути для GitHub Pages
 });
